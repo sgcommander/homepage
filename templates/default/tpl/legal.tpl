@@ -1,0 +1,1 @@
+<p>Los contenidos de las páginas externas enlazadas pueden cambiar en cualquier momento. Por eso no asumimos responsabilidad alguna de los enlaces externos. Si encontrase contenidos no permitidos en las páginas enlazadas comuníquenoslo.</p>

@@ -1,0 +1,15 @@
+version: "3.1"
+services:
+  sgcommander-homepage:
+    build: docker/php
+    container_name: sgcommander-homepage
+    volumes:
+      - ./:/var/www/web
+    ports:
+      - "8888:80"
+    networks:
+      - sgcommander-network
+
+networks:
+  sgcommander-network:
+    external: true
