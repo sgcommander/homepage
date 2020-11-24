@@ -8,7 +8,7 @@ body {
 	height: 500px;
 	margin:0 auto 0 auto;
 	text-align:left;
-	background-image: url('bg.jpg');
+	background-image: url('/images/bg4.jpg');
 }
 
 #mensaje{

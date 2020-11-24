@@ -4,6 +4,7 @@ services:
     build:
       context: ./
       dockerfile: docker/php/Dockerfile
+    #image: sgcommander/homepage:latest
     container_name: sgcommander-homepage
     environment:
       - UNIVERSE_HOSTS=${UNIVERSE_HOSTS}
