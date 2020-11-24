@@ -26,7 +26,7 @@
 							<input type="hidden" name="controlador" value="Acceso" />
 							<input type="hidden" name="accion" value="login" />
 							<div><input type="text" name="usuario" id="usuario" title="{_USUARIO}" /></div>
-							<div><input type="password" name="pass" id="pass" title="{_CONTRASENA}" /></div>
+							<div><input type="password" name="pass" id="pass" title="{_CONTRASENA}" autocomplete="on" /></div>
 							<div>
 							<select name="servidor" id="servidor">
 								<!-- BEGIN tServer -->
@@ -85,17 +85,6 @@
 					<div id="boton7" title="{BOTON7TITULO}">{BOTON7}</div>
 				</div>
 				<div id="publicidad">
-					<!-- CODIGO ADPV -->
-					<div id="adsadpv10807"></div>
-					<script type="text/javascript"><!--
-					var adpv_client = "10807";
-					var adpv_width = 300;
-					var adpv_height = 250;
-					var adpv_container_id = "adsadpv10807";
-					//--></script>
-					<script type="text/javascript" src="http://ads.adpv.com/ads.js"></script>
-					<!-- FIN CODIGO ADPV -->
-					<!--<script  language="javascript"  type="text/javascript">iwsrcplus="http://codenew.impresionesweb.com/r/banner_iw.php?idrotador=39770&tamano=300x250&lgid="+((new Date()).getTime() % 2147483648) + Math.random(); document.write("<scr"+"ipt language=javascript  type=text/javascript src="+iwsrcplus+"></scr"+"ipt>");</script><noscript><iframe src="http://alt.impresionesweb.com/noscript.php?tam=300x250&idp=39770&ref=39770&cod=120379" width="300" height="250" frameborder="0" marginheight="0" marginwidth="0" scrolling="no"></iframe></noscript>	-->
 				</div>
 				
 				<div id="contenido">
@@ -120,7 +109,7 @@
 					<div id="boton11" title="{BOTON11TITULO}">{BOTON11}</div>
 				</div>
 				<div id="copyright">
-					<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fwww.sgcommander.com&amp;layout=standard&amp;show_faces=true&amp;width=450&amp;action=like&amp;colorscheme=dark&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:300px; height:80px;margin-top:3px;"></iframe>
+					
 				</div>
 			</div>
 		</div>

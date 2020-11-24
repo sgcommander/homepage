@@ -8,9 +8,9 @@
 	<label>{_EMAIL}</label>
 	<input type="text" name="registroEmail" id="registroEmail" class="validate['required','email'] registro" />
 	<label>{_CONTRASENA}</label>
-	<input type="password" name="registroPass" title="{_CONTRASENA}" id="registroPass" class="validate['required','length[5,25]'] registro" />
+	<input type="password" name="registroPass" title="{_CONTRASENA}" id="registroPass" class="validate['required','length[5,25]'] registro" autocomplete="on" />
 	<label>{_REPETIRCONTRASENA}</label>
-	<input type="password" name="registroPass2" id="registroPass2" class="validate['confirm[registroPass]'] registro" />
+	<input type="password" name="registroPass2" id="registroPass2" class="validate['confirm[registroPass]'] registro" autocomplete="on" />
 	<label>{_SERVIDOR}</label>
 	<select name="registroServidor" id="registroServidor">
 		<!-- BEGIN tServer -->

@@ -20,7 +20,7 @@ if (0 > version_compare(PHP_VERSION, '5')) {
  * @author
  * @since 23/01/2009
  */
-require_once('libs/SPDO.php');
+require_once('../libs/SPDO.php');
 
 /* user defined includes */
 // section 127-0-1-1--6109fbe7:11efae96127:-8000:0000000000001334-includes begin

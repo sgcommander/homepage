@@ -17,7 +17,7 @@ if (0 > version_compare(PHP_VERSION, '5')) {
 
 /* user defined includes */
 // section 127-0-1-1--6109fbe7:11efae96127:-8000:0000000000001350-includes begin
-require_once('libs/Sigma.php');
+require_once('../libs/Sigma.php');
 // section 127-0-1-1--6109fbe7:11efae96127:-8000:0000000000001350-includes end
 
 /* user defined constants */

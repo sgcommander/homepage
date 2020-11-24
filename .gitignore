@@ -16,5 +16,7 @@ dead.letter
 ## SGCommander
 /templates/default/cache/*
 !/templates/default/cache/empty
-/config.php
-/docker-compose-production.yml
+/.env
+/docker-compose.dev.yml
+/docker-compose.prod.yml
+/docker-compose.staging.yml

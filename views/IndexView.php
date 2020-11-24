@@ -21,7 +21,7 @@ if (0 > version_compare(PHP_VERSION, '5')) {
  * @author
  * @since 21/01/2009
  */
-require_once('libs/View.php');
+require_once('../libs/View.php');
 
 /**
  * Vista del index

@@ -21,11 +21,11 @@ if (0 > version_compare(PHP_VERSION, '5')) {
  * @author
  * @since 21/01/2009
  */
-require_once('libs/ControllerBase.php');
+require_once('../libs/ControllerBase.php');
 
 /* user defined includes */
 // section 127-0-1-1-3aadfcf2:11f15349efc:-8000:0000000000000ED1-includes begin
-require_once('views/IndexView.php');
+require_once('../views/IndexView.php');
 // section 127-0-1-1-3aadfcf2:11f15349efc:-8000:0000000000000ED1-includes end
 
 /* user defined constants */

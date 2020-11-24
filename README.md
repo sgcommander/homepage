@@ -14,10 +14,10 @@ Necesitarás instalar [Docker](https://www.docker.com/) y Docker Compose para ar
 
 ### Instalación 🔧
 
-Copia y renombra el fichero de configuración de Docker para crear tu fichero de configuración para el proyecto:
+Copia y renombra el fichero de entorno de Docker para crear tu fichero de entorno para el proyecto:
 
 ```
-cp config.docker.php config.php
+cp .env.docker .env
 ```
 
 Este fichero contiene las configuraciones para arrancar el proyecto en Docker, deberás modificarlas para desplegar el proyecto en otro servidor.
