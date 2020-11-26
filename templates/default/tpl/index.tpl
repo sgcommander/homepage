@@ -22,7 +22,7 @@
 			<div id="cabecera">
 				<div id="cabeceraCentro">
 					<div id="login">
-						<form action="http://localhost:8889/index.php" method="post" id="frmLogin">
+						<form action="{DEFAULTSERVERURL}/index.php" method="post" id="frmLogin">
 							<input type="hidden" name="controlador" value="Acceso" />
 							<input type="hidden" name="accion" value="login" />
 							<div><input type="text" name="usuario" id="usuario" title="{_USUARIO}" /></div>
@@ -45,27 +45,11 @@
 						<div>
 							<a href="http://twitter.com/sgcommander" target="_blank"><img src="{IMGFOLDER}social/twitter.png" alt="Twitter" title="Twitter" border="0" /></a>
 						</div>
-						<div>
-							<a href="http://www.tuenti.com/#m=Page&func=index&page_key=1_6_59824153" target="_blank"><img src="{IMGFOLDER}social/tuenti.png" alt="Tuenti" title="Tuenti" border="0" /></a>
-						</div>
-						<div>
-							<a href="https://plus.google.com/107323997810311904446/posts?hl=es" target="_blank"><img src="{IMGFOLDER}social/googleplus.png" alt="Facebook" title="Google+" border="0" /></a>
-						</div>
-						<div>
-							<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
-							<input type="hidden" name="cmd" value="_s-xclick">
-							<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
-							">
-							<!--<input type="image" src="https://www.paypal.com/es_ES/ES/i/btn/btn_donate_LG.gif" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">-->
-							<input type="image" src="./images/donar.png" border="0" name="submit" alt="PayPal. La forma rápida y segura de pagar en Internet.">
-							<img alt="Paypal" border="0" src="https://www.paypal.com/es_ES/i/scr/pixel.gif" width="1" height="1">
-							</form>
-						</div>
 					</div>
 				</div>
 			</div>
 			<div id="centro">
-				<div id="mensaje">Nueva versi&#243;n beta abierta del juego sin l&#237;mite de jugadores ¿a que esperas para registrarte?</div>
+				<div id="mensaje"></div>
 				<div id="menu">
 					<div id="loaderImagenes">
 						<img src="./images/boton1_over.jpg" alt="Boton1"/>

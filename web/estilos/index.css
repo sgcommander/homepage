@@ -103,7 +103,6 @@ li{
 	font-size:11px;
 	font-weight:normal;
 	height:21px;
-	vertical-align:middle;
 	width:203px;
 	display:block;
 }
@@ -155,10 +154,6 @@ label{
 
 #enviarRegistro{
 	margin-top:15px;
-}
-
-#btnDisponible{
-
 }
 
 #loader{
@@ -619,7 +614,7 @@ label{
 	width: 290px;
 	height:75px;
 	top: 51px;
-	left:85px;
+	left:255px;
 	float:left;
 	font-size:14px;
 	color: white;

@@ -49,6 +49,7 @@ class IndexView extends View
 		$this->tpl->setVariable('_OLVIDASTEPASS', _('¿Olvidaste tu contrase&#241;a?'));
 		$this->tpl->setCurrentBlock('tServer');
 		$servers = $this->config->get('servers');
+		$this->tpl->setVariable('DEFAULTSERVERURL', (array_keys($servers)[0]));
 		for($i=0;$i<count($servers);$i++){
 			$this->tpl->setVariable('SERVERNAME', 'Universo '. ($i+1));
 			$this->tpl->setVariable('SERVERURL', (array_keys($servers)[$i]));

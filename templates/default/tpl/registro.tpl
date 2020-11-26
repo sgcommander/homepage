@@ -2,7 +2,7 @@
 	<div id="visorRaza"></div>
 	<input type="hidden" name="controlador" value="Index" />
 	<input type="hidden" name="accion" value="peticionRegistro" />
-	<label>{_USUARIO}333</label>
+	<label>{_USUARIO}</label>
 	<input type="text" name="registroUsuario" id="registroUsuario" class="validate['required','length[3,15]'] registro" />
 	<input type="button" class="boton" value="{_COMPROBARDISPONIBILIDAD}" id="btnDisponible" />
 	<label>{_EMAIL}</label>
