@@ -2,7 +2,7 @@
 
 Página principal del proyecto, necesaria para realizar login y creación de cuentas en las instancias del juego.
 
-![Screenshot](documentacion/screenshot01.png?raw=true "Stargate: Galactic Commander Homepage")
+![Screenshot](https://github.com/sgcommander/homepage/raw/main/documentacion/screenshot01.png?raw=true "Stargate: Galactic Commander Homepage")
 
 ## Comenzando 🚀
 
