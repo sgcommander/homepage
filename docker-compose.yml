@@ -8,8 +8,6 @@ services:
     container_name: sgcommander-homepage
     environment:
       - UNIVERSE_HOSTS=${UNIVERSE_HOSTS}
-    volumes:
-      - ./:/var/www
     ports:
       - "8888:80"
     networks:
