@@ -11,4 +11,4 @@ RUN apt-get update && apt-get install -y --force-yes \
     php5-gd
 
 # Permissions
-RUN chmod 777 -R /var/www/templates/default/cache
+RUN chown www-data:www-data /var/www/templates/default/cache
